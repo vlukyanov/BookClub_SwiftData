@@ -1,0 +1,40 @@
+# Xcode
+.DS_Store
+DerivedData/
+*.pbxuser
+*.xcworkspace
+xcuserdata/
+xcshareddata/
+!xcshareddata/xcschemes/
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.moved-aside
+build/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.app
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+!Pods/Manifest.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+
+# Other
+.env
+.env.*
+*.swp
+*~.nib
